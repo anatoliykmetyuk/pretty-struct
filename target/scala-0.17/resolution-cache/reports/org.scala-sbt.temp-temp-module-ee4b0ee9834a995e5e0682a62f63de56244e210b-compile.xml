@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-module-ee4b0ee9834a995e5e0682a62f63de56244e210b"
+		revision="0.17.0-RC1"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional"
+		date="20190725182222"/>
+	<dependencies>
+		<module organisation="ch.epfl.lamp" name="dotty-sbt-bridge">
+			<revision name="0.17.0-RC1" status="release" pubdate="20190722152143" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lampepfl/dotty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD New" url="https://github.com/lampepfl/dotty/blob/master/LICENSE.md"/>
+				<metadata-artifact status="no" details="" size="2987" time="0" location="/Users/anatolii/.ivy2/cache/ch.epfl.lamp/dotty-sbt-bridge/ivy-0.17.0-RC1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-sbt-bridge/0.17.0-RC1/dotty-sbt-bridge-0.17.0-RC1.pom"/>
+				<caller organisation="org.scala-sbt.temp" name="temp-module-ee4b0ee9834a995e5e0682a62f63de56244e210b" conf="compile" rev="0.17.0-RC1" rev-constraint-default="0.17.0-RC1" rev-constraint-dynamic="0.17.0-RC1" callerrev="0.17.0-RC1"/>
+				<artifacts>
+					<artifact name="dotty-sbt-bridge" type="jar" ext="jar" status="no" details="" size="13715" time="0" location="/Users/anatolii/.ivy2/cache/ch.epfl.lamp/dotty-sbt-bridge/jars/dotty-sbt-bridge-0.17.0-RC1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-sbt-bridge/0.17.0-RC1/dotty-sbt-bridge-0.17.0-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

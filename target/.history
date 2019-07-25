@@ -1,0 +1,10 @@
+run
+run foo
+run 'foo bar'
+run "foo bar"
+run """foo bar"""
+console
+run """foo bar"""
+run """utest.Tests.apply(utest.framework.Tree.apply[scala.Predef.String]("<root>", scala.Nil: _*), new utest.framework.TestCallTree(scala.Right.apply[scala.Nothing, scala.collection.immutable.IndexedSeq[utest.framework.TestCallTree]](scala.Nil.toIndexedSeq)))"""
+console
+run """utest.Tests.apply(utest.framework.Tree.apply[scala.Predef.String]("<root>", scala.Nil: _*), new utest.framework.TestCallTree(scala.Right.apply[scala.Nothing, scala.collection.immutable.IndexedSeq[utest.framework.TestCallTree]](scala.Nil.toIndexedSeq)))"""
