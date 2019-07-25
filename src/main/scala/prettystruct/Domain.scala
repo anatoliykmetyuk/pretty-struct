@@ -6,8 +6,8 @@ enum CharTpe(p: Char => Boolean) extends Function1[Char, Boolean] {
 
   def apply(c: Char): Boolean = p(c)
 
-  case OpenBrace  extends CharTpe('(')
-  case CloseBrace extends CharTpe(')')
+  case OpenBrace  extends CharTpe('(', '[')
+  case CloseBrace extends CharTpe(')', ']')
   case Comma      extends CharTpe(',')
   case Neutral    extends CharTpe(c => !CharTpe.values.filter(x => x.toString != "Neutral").exists(_(c)))
 }

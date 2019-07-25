@@ -10,13 +10,19 @@ Output:
 
 ```
 utest.Tests.apply(
-  utest.framework.Tree.apply[scala.Predef.String](
+  utest.framework.Tree.apply[
+    scala.Predef.String
+  ](
     "<root>"
   , scala.Nil: _*
   )
 , new utest.framework.TestCallTree(
-    scala.Right.apply[scala.Nothing
-  , scala.collection.immutable.IndexedSeq[utest.framework.TestCallTree]](
+    scala.Right.apply[
+      scala.Nothing
+    , scala.collection.immutable.IndexedSeq[
+        utest.framework.TestCallTree
+      ]
+    ](
       scala.Nil.toIndexedSeq
     )
   )
